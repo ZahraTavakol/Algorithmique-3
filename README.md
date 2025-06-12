@@ -1,33 +1,28 @@
 Algorithmique 3 – Structures de données et algorithmes en C
+Ce dépôt regroupe les travaux pratiques réalisés dans le cadre du module Algorithmique 3 durant ma formation en informatique. Chaque projet explore une structure de données spécifique, avec une mise en œuvre en langage C, en mettant l'accent sur la robustesse, la modularité et la performance.
 
-Ce dépôt contient les travaux pratiques réalisés dans le cadre du module Algorithmique 3 durant ma formation en informatique. 
-Chaque projet explore une structure de données spécifique, avec une mise en œuvre en langage C, en insistant sur la robustesse, la modularité et la performance du code.
+ Contenu des TPs
+🔹 Tri fusion sur listes doublement chaînées
+ Objectif : Implémenter l’algorithme de tri merge sort sur une liste doublement chaînée.
+ Compétences : Manipulation de pointeurs, récursivité, gestion de la mémoire.
 
-Contenu des TPs:
+🔹 Listes à raccourci (Skip Lists)
+ Objectif : Développer une structure probabiliste combinant les avantages des arbres et des listes chaînées.
+ Compétences : Algorithmes aléatoires, insertion/suppression dynamique, modularité.
 
- _ Tri fusion sur listes doublement chaînées:
-Implémentation de l’algorithme de tri fusion (merge sort) sur une structure personnalisée de listes doublement chaînées. Travail sur la manipulation fine des pointeurs et la récursivité.
+🔹 Arbres binaires de recherche (ABR)
+ Objectif : Construire une structure d’arbre binaire avec insertion, suppression, et parcours (infixe, préfixe, suffixe, largeur).
+ Compétences : Construction récursive, parcours DFS/BFS, visualisation avec Graphviz.
 
-– Listes à raccourci (Skip Lists):
-Conception d’une structure probabiliste combinant les avantages des listes chaînées et des arbres binaires. Découverte des algorithmes aléatoires et gestion dynamique de la mémoire.
-
-– Arbres binaires de recherche (ABR):
-Création d’un module permettant d’ajouter, chercher, supprimer et parcourir des arbres binaires. Mise en place de différentes stratégies de parcours : infixe, préfixe, suffixe, et largeur (BFS).
-
-– Arbres rouge-noir:
-Extension du TP5 avec l’implémentation d’un arbre auto-équilibré basé sur les propriétés des arbres rouge-noir. Travail sur les rotations, les recolorations et le maintien de l'équilibre après insertion et suppression.
+🔹 Arbres rouge-noir
+ Objectif : Étendre l’arbre binaire en le rendant auto-équilibré à l’aide d’un arbre rouge-noir.
+ Compétences : Rotations, recolorations, maintien des invariants, performance optimale.
 
 
-Compétences développées:
-
-_Maîtrise avancée des pointeurs et de la mémoire dynamique en C
-
-_Implémentation et analyse de la complexité des principales structures de données
-
-_Programmation modulaire et création de types de données abstraits (TDA)
-
-_Visualisation des structures (arbres) avec Graphviz
-
-_Débogage rigoureux et mise en place de tests fonctionnels
-
-_Compréhension des algorithmes utilisés dans les bibliothèques standard modernes
+ Compétences développées
+✅ Pointeurs avancés et gestion dynamique de la mémoire
+✅ Implémentation et analyse de complexité de structures de données
+✅ Programmation modulaire et conception de types de données abstraits (TDA)
+✅ Visualisation d’arbres via Graphviz
+✅ Mise en place de tests rigoureux et débogage structuré
+✅ Compréhension des algorithmes utilisés dans les bibliothèques standard modernes
